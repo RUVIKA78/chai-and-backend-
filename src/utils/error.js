@@ -3,7 +3,7 @@ class ErrorHandler extends Error {
         statusCode,
         message = "Something went wrong",
         error = [],
-        statck = ""
+        stack = ""
     ) {
         super(message)
         this.statusCode = statusCode
@@ -13,7 +13,7 @@ class ErrorHandler extends Error {
         this.error = error
 
 
-        if (statck) {
+        if (stack) {
             this.stack = statck
                 
         } else {
