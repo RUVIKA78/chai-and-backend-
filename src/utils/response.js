@@ -7,3 +7,5 @@ class Response {
             
     }
 }
+
+export {Response}
